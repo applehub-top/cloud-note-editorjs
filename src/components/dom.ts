@@ -178,7 +178,7 @@ export default class Dom {
   public static get allInputsSelector(): string {
     const allowedInputTypes = ['text', 'password', 'email', 'number', 'search', 'tel', 'url'];
 
-    return '[contenteditable=true], textarea, input:not([type]), ' +
+    return '[contenteditable=true]:not(.slash-paragraph-label), textarea, input:not([type]), ' +
       allowedInputTypes.map((type) => `input[type="${type}"]`).join(', ');
   }
 
