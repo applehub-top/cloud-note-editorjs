@@ -377,29 +377,29 @@ export default class Toolbar extends Module<ToolbarNodes> {
      *  - Plus Button
      *  - Toolbox
      */
-    this.nodes.plusButton = $.make('div', this.CSS.plusButton, {
-      innerHTML: IconPlus,
-    });
-    $.append(this.nodes.actions, this.nodes.plusButton);
+    // this.nodes.plusButton = $.make('div', this.CSS.plusButton, {
+    //   innerHTML: IconPlus,
+    // });
+    // $.append(this.nodes.actions, this.nodes.plusButton);
 
-    this.readOnlyMutableListeners.on(this.nodes.plusButton, 'click', () => {
-      tooltip.hide(true);
-      this.plusButtonClicked();
-    }, false);
+    // this.readOnlyMutableListeners.on(this.nodes.plusButton, 'click', () => {
+    //   tooltip.hide(true);
+    //   this.plusButtonClicked();
+    // }, false);
 
     /**
      * Add events to show/hide tooltip for plus button
      */
-    const tooltipContent = $.make('div');
+    // const tooltipContent = $.make('div');
 
-    tooltipContent.appendChild(document.createTextNode(I18n.ui(I18nInternalNS.ui.toolbar.toolbox, 'Add')));
-    tooltipContent.appendChild($.make('div', this.CSS.plusButtonShortcut, {
-      textContent: '/',
-    }));
+    // tooltipContent.appendChild(document.createTextNode(I18n.ui(I18nInternalNS.ui.toolbar.toolbox, 'Add')));
+    // tooltipContent.appendChild($.make('div', this.CSS.plusButtonShortcut, {
+    //   textContent: '/',
+    // }));
 
-    tooltip.onHover(this.nodes.plusButton, tooltipContent, {
-      hidingDelay: 400,
-    });
+    // tooltip.onHover(this.nodes.plusButton, tooltipContent, {
+    //   hidingDelay: 400,
+    // });
 
     /**
      * Fill Actions Zone:
