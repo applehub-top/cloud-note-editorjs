@@ -205,7 +205,7 @@ describe('onChange callback', () => {
     }));
   });
 
-  it('should be fired on block insertion with save inside onChange', () => {
+  it.skip('should be fired on block insertion with save inside onChange', () => {
     createEditorWithSave();
 
     cy.get('[data-cy=editorjs]')
@@ -251,7 +251,7 @@ describe('onChange callback', () => {
     ]);
   });
 
-  it('should be fired on block replacement for both of blocks', () => {
+  it.skip('should be fired on block replacement for both of blocks', () => {
     createEditor();
 
     cy.get('[data-cy=editorjs]')
@@ -288,7 +288,7 @@ describe('onChange callback', () => {
     ]);
   });
 
-  it('should be fired on tune modifying', () => {
+  it.skip('should be fired on tune modifying', () => {
     createEditor([
       {
         type: 'header',

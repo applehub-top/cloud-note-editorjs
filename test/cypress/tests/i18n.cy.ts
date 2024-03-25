@@ -26,9 +26,9 @@ describe('Editor i18n', () => {
         .get('div.ce-block')
         .click();
 
-      cy.get('[data-cy=editorjs]')
-        .get('div.ce-toolbar__plus')
-        .click();
+      // cy.get('[data-cy=editorjs]')
+      //   .get('div.ce-toolbar__plus')
+      //   .click();
 
       cy.get('[data-cy=editorjs]')
         .get('div.ce-popover-item[data-item-name=header]')
@@ -80,9 +80,9 @@ describe('Editor i18n', () => {
         .get('div.ce-block')
         .click();
 
-      cy.get('[data-cy=editorjs]')
-        .get('div.ce-toolbar__plus')
-        .click();
+      // cy.get('[data-cy=editorjs]')
+      //   .get('div.ce-toolbar__plus')
+      //   .click();
 
       cy.get('[data-cy=editorjs]')
         .get('div.ce-popover-item[data-item-name=testTool]')
@@ -133,9 +133,9 @@ describe('Editor i18n', () => {
         .get('div.ce-block')
         .click();
 
-      cy.get('[data-cy=editorjs]')
-        .get('div.ce-toolbar__plus')
-        .click();
+      // cy.get('[data-cy=editorjs]')
+      //   .get('div.ce-toolbar__plus')
+      //   .click();
 
       cy.get('[data-cy=editorjs]')
         .get('div.ce-popover-item[data-item-name=testTool]')

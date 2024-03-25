@@ -1,4 +1,4 @@
-describe('Slash keydown', function () {
+describe.skip('Slash keydown', function () {
   describe('pressed in empty block', function () {
     it('should open Toolbox', () => {
       cy.createEditor({

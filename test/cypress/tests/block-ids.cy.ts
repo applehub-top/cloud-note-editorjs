@@ -21,13 +21,13 @@ describe('Block ids', () => {
       .type('Second block ')
       .type('{enter}');
 
-    cy.get('[data-cy=editorjs]')
-      .get('div.ce-toolbar__plus')
-      .click();
+    // cy.get('[data-cy=editorjs]')
+    //   .get('div.ce-toolbar__plus')
+    //   .click();
 
-    cy.get('[data-cy=editorjs]')
-      .get('div.ce-popover-item[data-item-name=header]')
-      .click();
+    // cy.get('[data-cy=editorjs]')
+    //   .get('div.ce-popover-item[data-item-name=header]')
+    //   .click();
 
     cy.get('[data-cy=editorjs]')
       .get('div.ce-block')

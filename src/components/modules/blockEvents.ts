@@ -59,9 +59,9 @@ export default class BlockEvents extends Module {
      *
      * @todo probably using "beforeInput" event would be better here
      */
-    if (event.key === '/' && !event.ctrlKey && !event.metaKey) {
-      this.slashPressed();
-    }
+    // if (event.key === '/' && !event.ctrlKey && !event.metaKey) {
+    //   this.slashPressed();
+    // }
 
     /**
      * If user pressed "Ctrl + /" or "Cmd + /" — open Block Settings
