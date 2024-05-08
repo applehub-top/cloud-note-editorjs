@@ -1,6 +1,6 @@
 {
-  "name": "@editorjs/editorjs",
-  "version": "2.29.1",
+  "name": "cloud-note-editorjs",
+  "version": "0.1.0",
   "description": "Editor.js — Native JS, based on API and Open Source",
   "main": "dist/editorjs.umd.js",
   "module": "dist/editorjs.mjs",
@@ -31,12 +31,7 @@
     "test:e2e:open": "yarn build:test && cypress open",
     "devserver:start": "yarn build && node ./devserver.js"
   },
-  "author": "CodeX",
-  "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codex-team/editor.js.git"
-  },
+  "author": "Zhong.He",
   "devDependencies": {
     "@babel/register": "^7.21.0",
     "@codexteam/icons": "^0.3.0",
